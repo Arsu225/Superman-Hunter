@@ -1,0 +1,71 @@
+/* -----------------------------Header----------------------------- */
+header {
+	min-height: 100vh;
+	padding: 1% 1%;
+	background-color: var(--color-primary); /* primary */
+	width: 100vw;
+}
+header .logo {
+	color:#00ffad; /* secondary */
+	transition: all 0.4s ease-in-out;
+}
+header .logo:hover {
+	color: rgb(73, 240, 231);
+}
+header .logo:hover #logo-img {
+	background-color:rgb(73, 240, 231);
+}
+header #logo-img {
+	-o-object-fit: cover;
+	object-fit: cover;
+	width: 7rem;
+	height: 7rem;
+	border: 2px solid rgb(0, 255, 149);
+	transition: all 0.4s ease-in-out;
+	border-radius: 50%;
+}
+header .navbar a {
+	text-decoration: none;
+}
+/* -----------------------------Navbar----------------------------- */
+.navbar {
+	width: 100%;
+}
+.navbar-nav{
+	width: 100%;
+}
+.navbar .wrapper {
+	width: 100%;
+}
+.collapse {
+	width: 100%;
+}
+.collapse ul {
+	width: 100%;
+}
+.collapse li {
+	width: 100%;
+}
+.collapse li a {
+	width: 100%;
+	text-align: center;
+}
+/* -----------------------------Navbar Menu----------------------------- */
+.nav-link,
+.nav-link:visited,
+.nav-link:link,
+.nav-link:active {
+	color:#07d1ff; /* tertiary */
+	font-family: "Poppins", sans-serif;
+	font-size: 2.5rem;
+	letter-spacing: 0.05rem;
+	word-spacing: 0.02rem;
+	transition: 0.2s ease-in;
+}
+.nav-link:hover {
+	color: var(--color-secondary); /* secondary */
+}
+/* -----------------------------Animation Modal----------------------------- */
+#myModal {
+	display: none;
+}
