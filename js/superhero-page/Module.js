@@ -208,7 +208,7 @@ const superHeroPage = (() => {
 		setSearchResultTitle();
 		try {
 			const value = localStorage.getItem("superhero").toLowerCase();
-			const url = `https://superhero-hunter-app-mini-server.onrender.com/api/v1/superheroes/${value}`;
+			const url = `https://superheroapi.com/api/d9338cf6e79155e5a7fd2d7bc942d25f/${value}`;
 			const response = await fetch(url);
 			let data = await response.json();
 			data = data.data;
